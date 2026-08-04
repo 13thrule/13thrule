@@ -1,5 +1,12 @@
 # hey, I'm 13thrule
 
+```
+     __      ____        __        ______
+    |  |    |    |      |  |      |      |
+____|  |____|    |______|  |______|      |____
+ led        wifi          reflex     react
+```
+
 I build things that sense, and react before they think.
 
 WiFi RF, LED light, an agent's own reasoning loop. Different domains, same instinct: put a fast,
