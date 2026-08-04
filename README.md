@@ -43,7 +43,22 @@ to debug a light-based data link. Same person, a genuinely different relationshi
 
 <div align="center">
 
-![13thrule's GitHub stats](https://github-readme-stats.vercel.app/api?username=13thrule&show_icons=true&theme=dark&hide_border=true&bg_color=131410&title_color=5FE39A&icon_color=5FE39A&text_color=EDEAE0)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=13thrule&layout=compact&theme=dark&hide_border=true&bg_color=131410&title_color=5FE39A&text_color=EDEAE0)
+![Repos](https://img.shields.io/badge/project_repos-11-5FE39A?style=flat-square&labelColor=131410)
+![Stars](https://img.shields.io/github/stars/13thrule?style=flat-square&color=5FE39A&labelColor=131410&label=stars)
+![Top language](https://img.shields.io/badge/primary_language-Python-5FE39A?style=flat-square&labelColor=131410)
 
 </div>
+
+**languages, by actual bytes written** — computed straight from the repos, not a third-party widget
+that can quietly go down:
+
+```text
+Python      [###############################.........]   78.4%
+HTML        [####....................................]    8.9%
+Rust        [##......................................]    6.1%
+JavaScript  [#.......................................]    2.6%
+CSS         [#.......................................]    1.2%
+```
+
++ Shell, C++/Arduino, Svelte, PowerShell, Batchfile — under 1% each, still real work, just small
+footprints (the Arduino continuity tester is maybe 200 lines total and does its whole job).
