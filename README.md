@@ -1,10 +1,14 @@
 # hey, I'm 13thrule
 
 ```
-     __      ____        __        ______
-    |  |    |    |      |  |      |      |
-____|  |____|    |______|  |______|      |____
- led        wifi          reflex     react
+ ██╗██████╗ ████████╗██╗  ██╗██████╗ ██╗   ██╗██╗     ███████╗
+███║╚════██╗╚══██╔══╝██║  ██║██╔══██╗██║   ██║██║     ██╔════╝
+╚██║ █████╔╝   ██║   ███████║██████╔╝██║   ██║██║     █████╗  
+ ██║ ╚═══██╗   ██║   ██╔══██║██╔══██╗██║   ██║██║     ██╔══╝  
+ ██║██████╔╝   ██║   ██║  ██║██║  ██║╚██████╔╝███████╗███████╗
+ ╚═╝╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝
+
+          WiFi RF  ·  LED light  ·  agent reflex arcs
 ```
 
 I build things that sense, and react before they think.
@@ -14,8 +18,8 @@ reliable reaction path underneath the slow, smart one.
 
 Full interactive portfolio: https://13thrule.github.io
 A live signal trace, six featured builds each with a running demo next to it (not a screenshot),
-and a workshop section for what's still unpublished, including one project I gave myself a 4/10
-on. The honest story behind everything below lives there, not here.
+and a workshop section for what's still unpublished. The honest story behind everything below
+lives there, not here.
 
 ## what I've actually built
 
