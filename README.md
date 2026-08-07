@@ -13,20 +13,21 @@ WiFi RF, LED light, an agent's own reasoning loop. Different domains, same insti
 reliable reaction path underneath the slow, smart one.
 
 Full interactive portfolio: https://13thrule.github.io
-A live signal trace, a running LED-ring console you can switch effects on, and the honest story
-behind everything below.
+A live signal trace, six featured builds each with a running demo next to it (not a screenshot),
+and a workshop section for what's still unpublished, including one project I gave myself a 4/10
+on. The honest story behind everything below lives there, not here.
 
 ## what I've actually built
+
+Switchboard
+https://github.com/13thrule/Switchboard-rust
+A real pub/sub message broker in Rust, with zero-copy delivery and cross-process shared-memory
+transport. The most serious engineering I've done.
 
 led-data-transmission
 https://github.com/13thrule/led-data-transmission
 A 12-LED ring transmits data as light; a webcam decodes it. 33-bit, self-syncing,
 crosstalk-resistant protocol.
-
-Switchboard
-https://github.com/13thrule/Switchboard-rust
-A real pub/sub message broker in Rust, with zero-copy delivery and cross-process shared-memory
-transport.
 
 ANSE
 https://github.com/13thrule/ANSE-Agent-Nervous-System-Engine
@@ -36,6 +37,11 @@ Nexus WiFi Radar V2
 https://github.com/13thrule/Nexus-Wifi-Radar-V2
 Passive WiFi analysis: device fingerprinting, hidden-network classification, threat scoring,
 real time.
+
+neuro-synchron
+https://github.com/13thrule/neuro-synchron
+A single-file WebGL particle system, scales live to 16.7M points, with a real scheduler
+underneath the loudest marketing copy I've ever written.
 
 Persona Stage
 https://github.com/13thrule/persona-stage
@@ -62,4 +68,4 @@ CSS           1.2%
 Plus Shell, C++/Arduino, Svelte, PowerShell, and Batchfile, each under 1%. Still real work, just
 small footprints. The Arduino continuity tester is maybe 200 lines total and does its whole job.
 
-11 project repos, 22 stars total.
+11 project repos, 25 stars total.
