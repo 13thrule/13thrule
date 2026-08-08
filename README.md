@@ -8,7 +8,7 @@
  ██║██████╔╝   ██║   ██║  ██║██║  ██║╚██████╔╝███████╗███████╗
  ╚═╝╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝
 
-          WiFi RF  ·  LED light  ·  agent reflex arcs
+        
 ```
 
 I build things that sense, and react before they think.
