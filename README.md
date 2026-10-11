@@ -7,48 +7,46 @@
  ██║ ╚═══██╗   ██║   ██╔══██║██╔══██╗██║   ██║██║     ██╔══╝  
  ██║██████╔╝   ██║   ██║  ██║██║  ██║╚██████╔╝███████╗███████╗
  ╚═╝╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝
-
-        
 ```
 
-I build things that sense, and react before they think.
+**I build things that sense, and react before they think.**
 
 WiFi RF, LED light, an agent's own reasoning loop. Different domains, same instinct: put a fast,
 reliable reaction path underneath the slow, smart one.
 
-Full interactive portfolio: https://13thrule.github.io
+```
+  signal ──┬──► reflex ───────────────► act      (fast, dumb, always on)
+           │
+           └──► think ──► decide ─────► act      (slow, smart, catches up)
+```
+
+**Live portfolio: https://13thrule.github.io**
 A live signal trace, six featured builds each with a running demo next to it (not a screenshot),
 and a workshop section for what's still unpublished. The honest story behind everything below
 lives there, not here.
 
 ## what I've actually built
 
-Switchboard
-https://github.com/13thrule/Switchboard-rust
-A real pub/sub message broker in Rust, with zero-copy delivery and cross-process shared-memory
-transport. The most serious engineering I've done.
+**[Switchboard](https://github.com/13thrule/Switchboard-rust)** `Rust`
+A real pub/sub message broker with zero-copy delivery and cross-process shared-memory transport.
+The most serious engineering I've done.
 
-led-data-transmission
-https://github.com/13thrule/led-data-transmission
+**[led-data-transmission](https://github.com/13thrule/led-data-transmission)**
 A 12-LED ring transmits data as light; a webcam decodes it. 33-bit, self-syncing,
 crosstalk-resistant protocol.
 
-ANSE
-https://github.com/13thrule/ANSE-Agent-Nervous-System-Engine
+**[ANSE](https://github.com/13thrule/ANSE-Agent-Nervous-System-Engine)**
 An agent runtime with a reflex arc that reacts before the LLM finishes thinking.
 
-Nexus WiFi Radar V2
-https://github.com/13thrule/Nexus-Wifi-Radar-V2
+**[Nexus WiFi Radar V2](https://github.com/13thrule/Nexus-Wifi-Radar-V2)**
 Passive WiFi analysis: device fingerprinting, hidden-network classification, threat scoring,
 real time.
 
-neuro-synchron
-https://github.com/13thrule/neuro-synchron
-A single-file WebGL particle system, scales live to 16.7M points, with a real scheduler
-underneath the loudest marketing copy I've ever written.
+**[neuro-synchron](https://github.com/13thrule/neuro-synchron)** `WebGL` `JavaScript`
+A single-file particle system that scales live to 16.7M points, with a real scheduler underneath
+the loudest marketing copy I've ever written.
 
-Persona Stage
-https://github.com/13thrule/persona-stage
+**[Persona Stage](https://github.com/13thrule/persona-stage)**
 Fully local, fully offline. Gives any script a face and a voice, one HTTP call at a time.
 
 The full story on each one, including the one place my own README oversold its own internals,
@@ -56,20 +54,26 @@ lives on the portfolio, not here.
 
 ## the arc
 
-Dec 2025: "zero lines written by hand." Aug 2026: measuring actual pixel brightness values myself
-to debug a light-based data link. Same person, a genuinely different relationship with the code.
+Dec 2025: "zero lines written by hand."
+Aug 2026: measuring actual pixel brightness values myself to debug a light-based data link.
+
+Same person, a genuinely different relationship with the code.
 
 ## languages, by actual bytes written
 
 Computed directly from the repos, not a third-party widget.
 
-Python       78.4%
-HTML          8.9%
-Rust          6.1%
-JavaScript    2.6%
-CSS           1.2%
+```
+Python      ████████████████████████████████████████  78.4%
+HTML        ████▌                                      8.9%
+Rust        ███                                        6.1%
+JavaScript  █▎                                         2.6%
+CSS         ▌                                          1.2%
+```
 
 Plus Shell, C++/Arduino, Svelte, PowerShell, and Batchfile, each under 1%. Still real work, just
 small footprints. The Arduino continuity tester is maybe 200 lines total and does its whole job.
 
-11 project repos, 25 stars total.
+## by the numbers
+
+11 project repos. 25 stars total.
